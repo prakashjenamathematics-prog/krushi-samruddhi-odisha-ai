@@ -1,0 +1,119 @@
+# ============================================================
+# KRUSHI SAMRUDDHI ODISHA AI
+# Git Ignore File
+# ============================================================
+
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Python virtual environment
+backend/venv/
+venv/
+.env
+.env.*
+
+# Keep example environment file
+!.env.example
+
+
+# ------------------------------------------------------------
+# Flask / Python temporary files
+# ------------------------------------------------------------
+
+*.log
+instance/
+.pytest_cache/
+.mypy_cache/
+
+
+# ------------------------------------------------------------
+# Node.js
+# ------------------------------------------------------------
+
+frontend/node_modules/
+node_modules/
+
+# Vite cache
+frontend/node_modules/.vite/
+frontend/.vite/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# ------------------------------------------------------------
+# IDE / Editor
+# ------------------------------------------------------------
+
+.vscode/
+.idea/
+
+# VS Code local history
+.history/
+
+
+# ------------------------------------------------------------
+# Operating System
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ------------------------------------------------------------
+# Temporary files
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Temporary project tree
+project_tree.txt
+
+
+# ------------------------------------------------------------
+# Python generated cache
+# ------------------------------------------------------------
+
+**/__pycache__/
+**/*.pyc
+
+
+# ------------------------------------------------------------
+# Frontend generated files
+# ------------------------------------------------------------
+
+frontend/coverage/
+
+
+# ------------------------------------------------------------
+# Keep project source files
+# ------------------------------------------------------------
+
+!backend/
+!frontend/
+!database/
+!docs/
+!ml/
+# Generated data and audit outputs
+backend/census_mapping/*.csv
+backend/gis_village_coordinates.csv
+backend/gis_village_matching_audit.csv
+backend/odia_mapping/*.csv
